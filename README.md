@@ -1,56 +1,50 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Catalog of my things
 
-> Description the project.
+This project involves creating a console app that helps one keep a record of different types of things they own: books, music albums, movies, and games. Everything is based on the UML class diagram presented below. 
+The data is stored in JSON files but a database ia also prepared with tables structure analogical to the program's class structure.
+
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
+- SQL
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
+To access and change the code on your computer (using GIT):
+> Note: if you don't use git, you can download the ZIP of this repository by clicking on the "Code" button above the files list.
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+- Open the repository [link](https://github.com/MoRaad97/Catalog-of-my-things-Ruby-group-capstone).
+- Click on the "Code" button, above the files list.
+- Select one of the three options to copy the URL: HTTPS, SSH key and GitHub CLI.
+- Open the Terminal in the directory you want to copy the project.
+- Type git clone, paste the URL you copied, and press enter.
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Mohammed Raadz**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@MoRaad97](https://github.com/MoRaad97)
+- Twitter: [@MohammedRaadz](https://twitter.com/MohammedRaadz)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohammed-raad/)
 
-👤 **Author2**
+👤 **NabilHY**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@gNabilHY](https://github.com/NabilHY)
+- Twitter: [@Neonabil12](https://twitter.com/NeoNabil2)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nabil-hayoun/)
+
+👤 **Zelalem Fissha**
+
+- GitHub: [@Zelalem1222](https://github.com/Zelalem1222)
+- Twitter: [@Zelalem](https://twitter.com/Zelalem52236790)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/zelalemfissha/)
 
 ## 🤝 Contributing
 
@@ -68,8 +62,4 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
-## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
