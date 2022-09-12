@@ -1,4 +1,5 @@
 require_relative './item'
+
 class MusicAlbum < Item
   attr_accessor :on_spotify
 
@@ -8,6 +9,10 @@ class MusicAlbum < Item
   end
 
   def can_be_archived?
-    super && on_spotify == true
+    if super && @on_spotify == true
+      true
+    else
+      false
+    end
   end
 end
