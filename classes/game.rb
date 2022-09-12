@@ -4,7 +4,7 @@ require 'date'
 class Game < Item
   attr_accessor :name, :multi_player, :last_played_at
 
-  def initialize(name, multi_player, last_played_at, _publish_date)
+  def initialize(name, multi_player, last_played_at, publish_date)
     super(last_played_at)
     @name = name
     @multi_player = multi_player
