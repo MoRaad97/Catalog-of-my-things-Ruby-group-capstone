@@ -15,10 +15,7 @@ class Item
   end
 
   def can_be_archived?
-    edition_age = (Date.parse(@publish_date) - Date.today)
-    return true if edition_age > 3652.5
-
-    false
+    Date.today.year - Date.parse(@publish_date).year > 10
   end
 
   def move_to_archive
