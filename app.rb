@@ -99,6 +99,7 @@ class App
     when 12
       puts
       create_game
+      write_games
     when 13
       puts 'Thanks For Using Our Program =(MYZ Team)='
       exit
