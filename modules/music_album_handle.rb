@@ -3,7 +3,7 @@ require_relative '../helper'
 module MusicAlbumHandle
   def list_music_album
     if @albums.empty?
-      puts 'The book list is empty. Create new Book Item!'
+      puts 'The music list is empty. Create new Music Album Item!'
     else
       @albums.each_with_index do |album, index|
         puts "[#{index + 1}]"
@@ -16,7 +16,7 @@ module MusicAlbumHandle
     end
   end
 
-  # Create a book
+  # Create a music album
   def create_music_album
     puts
     print 'Author: '
@@ -47,6 +47,6 @@ module MusicAlbumHandle
     end
 
     @albums.push(MusicAlbum.new(genre, author, source, label, publish_date, on_spotify))
-    puts 'Alubum Created Successfully!'
+    puts 'Album Created Successfully!'
   end
 end

@@ -1,5 +1,5 @@
 require 'io/console'
-require_relative './helper.rb'
+require_relative './helper'
 
 class App
   attr_reader :genres, :sources
@@ -117,7 +117,7 @@ class App
       choice = gets.chomp.strip.to_i
       selected(choice)
       print 'Press any key to continue....'
-      STDIN.getch
+      $stdin.getch
     end
   end
 end
