@@ -17,13 +17,8 @@ class App
 
     @genres = []
     read_genre
-    
+
     @sources = []
     read_source
   end
-
-  
-
-
-
 end

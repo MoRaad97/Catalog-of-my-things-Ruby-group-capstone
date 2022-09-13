@@ -1,16 +1,19 @@
 require_relative '../helper.rb'
 
 module MusicAlbumHandle
-
   def list_music_album
     if @albums.empty?
       puts 'The book list is empty. Create new Book Item!'
     else
       @albums.each_with_index do |album, index|
-        puts "#{index}. Label: #{album.label} Authored by: #{album.author}, Publish Date: #{album.publish_date}, Genre: #{album.genre}"
+        puts "#{index}.
+         Label: #{album.label}
+         Authored by: #{album.author},
+         Publish Date: #{album.publish_date},
+         Genre: #{album.genre}"
       end
     end
- end
+  end
 
   # Create a book
   def create_music_album
@@ -32,17 +35,16 @@ module MusicAlbumHandle
 
     print 'is it on Spotify [Y/N]: '
     on_spotify = gets.chomp.strip.capitalize
-    if on_spotify == "Y"
+    if on_spotify == 'Y'
       true
-    elsif on_spotify == "Y"
+    elsif on_spotify == 'Y'
       false
     else
-      print "Please Answer With Y or N"
+      print 'Please Answer With Y or N'
       on_spotify = gets.chomp.strip.capitalize
     end
-    
+
     @albums.push(MusicAlbum.new(genre, author, source, label, publish_date, on_spotify))
-    puts "Alubum Created Successfully!"
+    puts 'Alubum Created Successfully!'
   end
-  
 end

@@ -1,17 +1,20 @@
 require_relative '../helper.rb'
 
 module BookHandle
-
   # List all books
   def list_books
     if @books.empty?
       puts 'The book list is empty. Create new Book Item!'
     else
       @books.each_with_index do |book, index|
-        puts "#{index}. Label: #{book.label} Authored by: #{book.author}, Publish Date: #{book.publish_date}, Genre: #{book.genre}"
+        puts "#{index}.
+        Label: #{book.label}
+        Authored by: #{book.author},
+        Publish Date: #{book.publish_date},
+        Genre: #{book.genre}"
       end
     end
- end
+  end
 
   # Create a book
   def create_book
@@ -36,9 +39,8 @@ module BookHandle
 
     print 'cover_state [bad/good]: '
     cover_state = gets.chomp.strip.capitalize
-    
+
     @books.push(Book.new(genre, author, source, label, publish_date, publisher, cover_state))
-    puts "Book Created Successfully!"
+    puts 'Book Created Successfully!'
   end
-  
 end
