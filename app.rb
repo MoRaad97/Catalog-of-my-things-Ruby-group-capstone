@@ -1,4 +1,3 @@
-
 require 'io/console'
 require_relative './helper.rb'
 
@@ -20,7 +19,7 @@ class App
 
     @albums = []
     read_music_album
-    
+
     @games = []
     read_games
 
@@ -40,25 +39,24 @@ class App
     read_labels
   end
 
-  def menu 
+  def menu
     puts 'Welcome To the Catalog of things'
-    puts 
+    puts
     puts 'Please enter option number 1 - 11 to begin'
-    puts '1 - List all books' 
-    puts '2 - List all music albums' 
-    puts '3 - List all movies' 
-    puts '4 - List all games' 
-    puts '5 - List all genres' 
-    puts '6 - List all labels' 
-    puts '7 - List all authors' 
-    puts '8 - List all sources' 
-    puts '9 - Add a book' 
-    puts '10 - Add a music album' 
-    puts '11 - Add a movie' 
-    puts '12 - Add a game' 
-    puts '13 - Exit' 
+    puts '1 - List all books'
+    puts '2 - List all music albums'
+    puts '3 - List all movies'
+    puts '4 - List all games'
+    puts '5 - List all genres'
+    puts '6 - List all labels'
+    puts '7 - List all authors'
+    puts '8 - List all sources'
+    puts '9 - Add a book'
+    puts '10 - Add a music album'
+    puts '11 - Add a movie'
+    puts '12 - Add a game'
+    puts '13 - Exit'
   end
-
 
   def selected(choice)
     case choice
@@ -69,7 +67,7 @@ class App
       puts
       list_music_album
     when 3
-      puts 
+      puts
       list_movies
     when 4
       puts
@@ -82,18 +80,18 @@ class App
       list_labels
     when 7
       puts
-     list_authors
+      list_authors
     when 8
       puts
       list_sources
     when 9
       puts
-       create_book
-       write_books
+      create_book
+      write_books
     when 10
       puts
-       create_music_album
-       write_music_albums
+      create_music_album
+      write_music_albums
     when 11
       puts
       create_movie
@@ -109,7 +107,6 @@ class App
     end
   end
 
-  
   def run
     choice = 0
     while choice != 13
@@ -122,7 +119,4 @@ class App
       STDIN.getch
     end
   end
-
-
-
-  end
+end

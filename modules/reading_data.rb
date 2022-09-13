@@ -45,13 +45,14 @@ module ReadData
       stored_books = JSON.parse(file.read)
       stored_books.each do |book|
         @books << Book.new(
-          book['genre'], 
+          book['genre'],
           book['author'],
           book['source'],
           book['label'],
           book['publish_date'],
           book['publisher'],
-          book['cover_state'])
+          book['cover_state']
+        )
       end
     end
   end
@@ -59,6 +60,7 @@ module ReadData
   def read_music_album
     File.open('./data/music_album.json', 'r') do |file|
       return if file.size == 0
+
       stored_albums = JSON.parse(file.read)
       stored_albums.each do |album|
         @albums << MusicAlbum.new(

@@ -14,4 +14,3 @@ require_relative './modules/static_data_handle.rb'
 require_relative './modules/games_handle.rb'
 require_relative './modules/movies_handler.rb'
 require_relative './modules/writing_data.rb'
-

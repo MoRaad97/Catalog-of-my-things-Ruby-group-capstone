@@ -6,8 +6,12 @@ module MusicAlbumHandle
       puts 'The book list is empty. Create new Book Item!'
     else
       @albums.each_with_index do |album, index|
-        puts "#{index + 1}.Label: #{album.label} Authored by: #{album.author}, Genre: #{album.genre}
-        Publish Date: #{album.publish_date}"
+        puts "[#{index + 1}]"
+        puts "Label: #{album.label}"
+        puts "Authored by: #{album.author}"
+        puts "Genre:#{album.genre}"
+        puts "Publish Date: #{album.publish_date}"
+        puts
       end
     end
   end

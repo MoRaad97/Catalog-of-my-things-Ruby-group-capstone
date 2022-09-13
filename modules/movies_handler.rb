@@ -6,12 +6,13 @@ module MovieHandle
       puts 'The movie list is empty. Create new Movie Item!'
     else
       @movies.each_with_index do |movie, index|
-        puts "#{index + 1}.
-                Name: #{movie.name}
-                Label: #{movie.label}
-                Authored by: #{movie.author},
-                Publish Date: #{movie.publish_date},
-                Genre: #{movie.genre}"
+        puts "[#{index + 1}]"
+        puts "Name: #{movie.name}"
+        puts "Label: #{movie.label}"
+        puts "Authored by: #{movie.author}"
+        puts "Publish Date: #{movie.publish_date}"
+        puts "Genre: #{movie.genre}"
+        puts
       end
     end
   end

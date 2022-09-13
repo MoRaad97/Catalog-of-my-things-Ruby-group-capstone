@@ -1,14 +1,16 @@
 require_relative '../helper'
 
 module BookHandle
- 
   def list_books
     if @books.empty?
       puts 'The book list is empty. Create new Book Item!'
     else
       @books.each_with_index do |book, index|
-        puts "#{index + 1}.Label: #{book.label} Authored by: #{book.author},Genre: #{book.genre}
-        Publish Date: #{book.publish_date}"
+        puts "[#{index + 1}]"
+        puts "Label: #{book.label}"
+        puts "Authored by: #{book.author}"
+        puts "Genre: #{book.genre}"
+        puts "Publish Date: #{book.publish_date}"
         puts
       end
     end
