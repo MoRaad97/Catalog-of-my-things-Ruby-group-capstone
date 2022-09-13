@@ -109,7 +109,7 @@ create table game(
 	on_spotify BOOLEAN,
 	FOREIGN Key(genre_id) REFERENCES genre(id),
 	FOREIGN Key(author_id) REFERENCES author(id),
-	FOREIGN Key(source_id) REFERENCES source1(id),
+	FOREIGN Key(source_id) REFERENCES source(id),
 	FOREIGN Key(lable_id) REFERENCES lable(id)
 				 );
 
