@@ -1,4 +1,4 @@
-require_relative './helper.rb'
+require_relative './helper'
 
 class App
   attr_reader :genres, :sources
@@ -9,6 +9,7 @@ class App
   include ReadData
 
   def initialize
+    
     @books = []
     read_books
 
@@ -20,5 +21,13 @@ class App
 
     @sources = []
     read_source
+
+    @games = []
+    read_games
+
+    @movies = []
+    read_movies
+
   end
+
 end

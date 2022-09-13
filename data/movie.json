@@ -1,0 +1,20 @@
+[
+    {
+        "name" : "Inception",
+        "genre" : "Action",
+        "author" : "Christopher Nolan",
+        "source" : "imdb",
+        "label" : "Inception",
+        "publish_date" : 2010,
+        "silent" : false
+    },
+    {
+        "name" : "The Dark Knight",
+        "genre" : "Action",
+        "author" : "Christopher Nolan",
+        "source" : "imdb",
+        "label" : "The Dark Knight",
+        "publish_date" : 2008,
+        "silent" : false
+    }
+]
