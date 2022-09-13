@@ -1,4 +1,4 @@
-require_relative '../helper.rb'
+require_relative '../helper'
 
 module MusicAlbumHandle
   def list_music_album
@@ -32,9 +32,10 @@ module MusicAlbumHandle
 
     print 'is it on Spotify [Y/N]: '
     on_spotify = gets.chomp.strip.capitalize
-    if on_spotify == 'Y'
+    case on_spotify
+    when 'Y'
       true
-    elsif on_spotify == 'Y'
+    when 'Y'
       false
     else
       print 'Please Answer With Y or N'

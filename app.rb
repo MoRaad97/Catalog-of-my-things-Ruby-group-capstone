@@ -1,3 +1,4 @@
+
 require 'io/console'
 require_relative './helper.rb'
 
@@ -11,11 +12,18 @@ class App
   include ReadData
 
   def initialize
+    
     @books = []
     read_books
 
     @albums = []
     read_music_album
+    
+    @games = []
+    read_games
+
+    @movies = []
+    read_movies
 
     @genres = []
     read_genre
@@ -107,5 +115,10 @@ class App
       STDIN.getch
     end
   end
+
+
+
+  end
+
 
 end

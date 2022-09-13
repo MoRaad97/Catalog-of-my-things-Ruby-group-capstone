@@ -11,3 +11,4 @@ require_relative './modules/reading_data.rb'
 require_relative './modules/book_handle.rb'
 require_relative './modules/music_album_handle.rb'
 require_relative './modules/static_data_handle.rb'
+
