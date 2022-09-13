@@ -20,7 +20,7 @@ create table lable(
 	id int GENERATED ALWAYS as Identity PRIMARY key, 
 	title VARCHAR(30),
 	color varchar(20)
-)
+);
 
 -- creating source table 
 
@@ -79,7 +79,7 @@ create table game(
 	FOREIGN Key(author_id) REFERENCES author(id),
 	FOREIGN Key(source_id) REFERENCES source(id),
 	FOREIGN Key(lable_id) REFERENCES lable(id)
-				 )
+				 );
 
 
 -- creating movie table
@@ -96,7 +96,7 @@ create table game(
 	FOREIGN Key(author_id) REFERENCES author(id),
 	FOREIGN Key(source_id) REFERENCES source(id),
 	FOREIGN Key(lable_id) REFERENCES lable(id)
-				 )
+				 );
 
 -- creating music-album table  
 
@@ -111,7 +111,7 @@ create table game(
 	FOREIGN Key(author_id) REFERENCES author(id),
 	FOREIGN Key(source_id) REFERENCES source1(id),
 	FOREIGN Key(lable_id) REFERENCES lable(id)
-				 )
+				 );
 
 
 
