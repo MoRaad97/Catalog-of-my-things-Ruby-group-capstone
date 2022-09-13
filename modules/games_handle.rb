@@ -32,7 +32,7 @@ module GamesHandle
         print 'Label: '
         label = gets.chomp.strip.capitalize
 
-        print 'Publish Date: '
+        print 'Publish Date [YYYY-MM-DD]: '
         publish_date = gets.chomp.strip.capitalize
 
         print 'Multi Player [Y/N]: '
