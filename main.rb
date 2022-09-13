@@ -29,7 +29,6 @@ def main
   option = gets.chomp.to_i
   option = Option.new(option)
   option.selected
-  main
 end
 
 class Option
