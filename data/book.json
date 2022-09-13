@@ -1,0 +1,5 @@
+[
+  {"genre": "Horror", "author": "me", "label": "Book","publish_date": "22-4-2002","publisher": "me","cover_state": "bad", "source": "online shop" },
+  {"genre": "popular", "author": "us", "label": "Book","publish_date": "22-4-2002","publisher": "me","cover_state": "good", "source": "online shop" },
+  {"genre": "war", "author": "you", "label": "Book","publish_date": "22-4-2002","publisher": "me","cover_state": "bad", "source": "online shop" }
+]

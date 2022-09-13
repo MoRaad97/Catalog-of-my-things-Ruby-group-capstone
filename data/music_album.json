@@ -1,0 +1,5 @@
+[
+  {"genre": "classical", "author": "me", "label": "album","publish_date": "22-4-2002","on_spotify": "true", "source": "spotify" },
+  {"genre": "popular", "author": "us", "label": "album","publish_date": "22-4-2002","on_spotify": "false", "source": "online" },
+  {"genre": "classical", "author": "you", "label": "album","publish_date": "22-4-2002","on_spotify": "true", "source": "spotify" }
+]
