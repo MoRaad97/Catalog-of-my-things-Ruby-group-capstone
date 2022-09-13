@@ -75,7 +75,7 @@ module ReadData
 
   def read_games
     File.open('./data/game.json', 'r') do |file|
-      return if file.empty?
+      return if file.size == 0
 
       stored_games = JSON.parse(file.read)
       stored_games.each do |game|
@@ -95,12 +95,12 @@ module ReadData
 
   def read_movies
     File.open('./data/movie.json', 'r') do |file|
-      return if file.empty?
+      return if file.size == 0
 
       stored_movies = JSON.parse(file.read)
       stored_movies.each do |movie|
         @movies << Movie.new(
-          movie['name']
+          movie['name'],
           movie['genre'],
           movie['author'],
           movie['source'],

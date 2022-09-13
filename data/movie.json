@@ -5,8 +5,8 @@
         "author" : "Christopher Nolan",
         "source" : "imdb",
         "label" : "Inception",
-        "publish_date" : 2010,
-        "silent" : false
+        "publish_date" : "2010",
+        "silent" : "false"
     },
     {
         "name" : "The Dark Knight",
@@ -14,7 +14,7 @@
         "author" : "Christopher Nolan",
         "source" : "imdb",
         "label" : "The Dark Knight",
-        "publish_date" : 2008,
-        "silent" : false
+        "publish_date" : "2008",
+        "silent" : "false"
     }
 ]

@@ -6,7 +6,8 @@ module GamesHandle
       puts 'The game list is empty. Create new Game Item!'
     else
       @games.each_with_index do |game, index|
-        puts "#{index}.
+        puts "#{index + 1}.
+                Name: #{game.name}
                 Label: #{game.label}
                 Authored by: #{game.author},
                 Publish Date: #{game.publish_date},

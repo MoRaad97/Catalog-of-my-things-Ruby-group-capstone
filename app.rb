@@ -9,10 +9,12 @@ class App
   include BookHandle
   include MusicAlbumHandle
   include StaticDataHandle
+  include MovieHandle
+  include GamesHandle
   include ReadData
+  include WriteData
 
   def initialize
-    
     @books = []
     read_books
 
@@ -68,8 +70,10 @@ class App
       list_music_album
     when 3
       puts 
+      list_movies
     when 4
       puts
+      list_games
     when 5
       puts
       list_genres
@@ -85,15 +89,17 @@ class App
     when 9
       puts
        create_book
+       write_books
     when 10
       puts
        create_music_album
+       write_music_albums
     when 11
       puts
-      puts '11'
+      create_movie
     when 12
       puts
-      puts '12'
+      create_game
     when 13
       puts 'Thanks For Using Our Program =(MYZ Team)='
       exit
@@ -119,6 +125,3 @@ class App
 
 
   end
-
-
-end
