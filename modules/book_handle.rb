@@ -1,4 +1,4 @@
-require_relative '../helper.rb'
+require_relative '../helper'
 
 module BookHandle
   # List all books

@@ -1,4 +1,4 @@
-require_relative './helper.rb'
+require_relative './helper'
 
 class App
   attr_reader :genres, :sources
