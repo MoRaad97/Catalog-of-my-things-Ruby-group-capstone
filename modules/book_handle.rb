@@ -7,11 +7,9 @@ module BookHandle
       puts 'The book list is empty. Create new Book Item!'
     else
       @books.each_with_index do |book, index|
-        puts "#{index}.
-        Label: #{book.label}
-        Authored by: #{book.author},
-        Publish Date: #{book.publish_date},
-        Genre: #{book.genre}"
+        puts "#{index}.Label: #{book.label} Authored by: #{book.author},Genre: #{book.genre}
+        Publish Date: #{book.publish_date}"
+        puts
       end
     end
   end
