@@ -97,6 +97,7 @@ class App
     when 11
       puts
       create_movie
+      write_movies
     when 12
       puts
       create_game

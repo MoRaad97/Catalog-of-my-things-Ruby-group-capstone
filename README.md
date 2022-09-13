@@ -5,7 +5,7 @@
 This project involves creating a console app that helps one keep a record of different types of things they own: books, music albums, movies, and games. Everything is based on the UML class diagram presented below. 
 The data is stored in JSON files but a database ia also prepared with tables structure analogical to the program's class structure.
 
-
+![image](https://raw.githubusercontent.com/microverseinc/curriculum-ruby/main/group-capstone/images/catalog_of_my_things.png?token=GHSAT0AAAAAABXAL25KBXFPQVJL523UUPSSYZATIMQ)
 
 ## Built With
 

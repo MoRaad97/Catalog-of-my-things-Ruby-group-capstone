@@ -14,7 +14,7 @@ module WriteData
           "cover_state": book.cover_state,
           "source": book.source }
       end
-      file.write JSON.generate(books_to_store)
+      file.write JSON.pretty_generate(books_to_store)
     end
   end
 
@@ -29,7 +29,25 @@ module WriteData
           "on_spotify": album.on_spotify,
           "source": album.source }
       end
-      file.write JSON.generate(albums_to_store)
+      file.write JSON.pretty_generate(albums_to_store)
     end
   end
+
+  def write_movies
+    File.open("./data/movie.json", "w") do |file|
+       movies_to_store = []
+      @movies.each do |movie| 
+        movies_to_store << {"name": movie.name,
+          "genre": movie.genre,
+          "author": movie.author,
+          "source": movie.source ,
+          "label": movie.label,
+          "publish_date": movie.publish_date,
+          "silent": movie.silent
+        }
+      end
+      file.write JSON.pretty_generate(movies_to_store)
+    end
+  end
+
 end
