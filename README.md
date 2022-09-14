@@ -24,6 +24,8 @@ To access and change the code on your computer (using GIT):
 - Open the Terminal in the directory you want to copy the project.
 - Type git clone, paste the URL you copied, and press enter.
 
+## Video presentation 
+[Google Drive](https://drive.google.com/file/d/13LkyMeXpgBJB-R0Nj10rrd10PnllFu9l/view?usp=sharing)
 
 
 ## Authors
