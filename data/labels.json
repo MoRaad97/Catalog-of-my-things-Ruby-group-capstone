@@ -1,12 +1,12 @@
 [
-  {"title": "Western", "color": "red"},
-  {"title": "War", "color": "red"},
-  {"title": "Horror", "color": "red"},
-  {"title": "Romantic", "color": "red"},
-  {"title": "Comedy", "color": "red"},
-  {"title": "Musical", "color": "red"},
-  {"title": "Crime", "color": "red"},
-  {"title": "classical music", "color": "red"},
-  {"title": "popular music", "color": "red"},
-  {"title": "Thriller", "color": "red"}
+  {"title": "Gift", "color": "red"},
+  {"title": "New", "color": "white"},
+  {"title": "Used", "color": "Green"},
+  {"title": "Hot", "color": "yellow"},
+  {"title": "exclusive", "color": "blue"},
+  {"title": "most popular", "color": "light blue"},
+  {"title": "best sell", "color": "dark red"},
+  {"title": "master book", "color": "black"},
+  {"title": "master game", "color": "gray"},
+  {"title": "master movie", "color": "pink"}
 ]
