@@ -1,12 +1,14 @@
 [
-  {"first_name": "Western", "last_name": "last"},
-  {"first_name": "War", "last_name": "last"},
-  {"first_name": "Horror", "last_name": "last"},
-  {"first_name": "Romantic", "last_name": "last"},
-  {"first_name": "Comedy", "last_name": "last"},
-  {"first_name": "Musical", "last_name": "last"},
-  {"first_name": "Crime", "last_name": "last"},
-  {"first_name": "classical music", "last_name": "last"},
-  {"first_name": "popular music", "last_name": "last"},
-  {"first_name": "Thriller", "last_name": "last"}
+  {"first_name": "Leo", "last_name": "Tolstoy"},
+  {"first_name": "Gustav", "last_name": "Flaubert"},
+  {"first_name": "Vladimir", "last_name": "Nabokov"},
+  {"first_name": "Mark", "last_name": "Twain"},
+  {"first_name": "William", "last_name": "Shakespeare"},
+  {"first_name": "F. Scott", "last_name": "Fizgerald"},
+  {"first_name": "Marcel", "last_name": "Proust"},
+  {"first_name": "Anton", "last_name": "Checkhov"},
+  {"first_name": "George", "last_name": "Eliot"},
+  {"first_name": "Alemayehu", "last_name": "Wassie"}
 ]
+ 
+ 

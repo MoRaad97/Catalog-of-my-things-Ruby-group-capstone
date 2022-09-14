@@ -20,13 +20,13 @@
     "last_played_at": "2017-04-14"
   },
   {
-    "name": "Dwdw",
-    "genre": "Dwdwd",
-    "author": "Wdwdwd",
-    "source": "Dwdwdw",
-    "label": "Dwdwdw",
-    "publish_date": "Dwdwd",
-    "multi_player": false,
-    "last_played_at": "dwdwd"
+    "name": "Call of Duty",
+    "genre": "action",
+    "author": "Activision",
+    "source": "CD",
+    "label": "Activision",
+    "publish_date": "2013-03-24",
+    "multi_player": true,
+    "last_played_at": "2017-04-14"
   }
 ]

@@ -16,7 +16,7 @@ module ReadData
       return if file.size.zero?
 
       authors_list = JSON.parse(file.read)
-      authors_list.each { |author| @authors << Author.new(author['first_name'], author['first_name']) }
+      authors_list.each { |author| @authors << Author.new(author['first_name'], author['last_name']) }
     end
   end
 
